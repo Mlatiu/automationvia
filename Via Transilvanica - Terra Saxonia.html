@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Via Transilvanica - Terra Saxonia</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Terra Saxonia</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.viatransilvanica.com/traseu/terra-saxonia/harta/<datalist><option>https://www.viatransilvanica.com/traseu/terra-saxonia/harta/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Hartă<datalist><option>link=Hartă</option><option>xpath=(//a[contains(@href, '/traseu/terra-saxonia/harta/')])[2]</option><option>//div[8]/a</option><option>css=a.menu-item.region-menu-active</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>//div[@id='map']/div/div/div/div[3]<datalist><option>//div[@id='map']/div/div/div/div[3]</option><option>//div[2]/div/div/div/div[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//a[2]/span[2]<datalist><option>//a[2]/span[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertTitle</td><td>Oameni<datalist><option>//h1</option><option>css=h1</option><option>Oameni</option><option>/html/body/website/title</option><option></option><option>//Title</option><option>//title</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td>Oameni</td>
+</tr>
+<tr><td>assertText</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td>Despre sași istoria ne spune că au fost chemați în Transilvania de regii maghiari. Au adus cu ei principii de organizare pe vecinătăți, au rânduit agricultura în sistem trienal (doi ani se cultivau două culturi diferite, apoi în al treilea an, pământul era lăsat să se odihnească), foloseau bisericile ca adăpost în caz de invazie, iar atunci când se luau decizii importante ale comunității, sașii votau fiind toți egali în drepturi.</td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=footer<datalist><option>id=footer</option><option>//div[@id='footer']</option><option>//div[14]</option><option>css=#footer</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>//div[@id='footer']/div/div/img<datalist><option>//div[@id='footer']/div/div/img</option><option>//div[14]/div/div/img</option><option>css=img.footer-app-logo.hidden-sm</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>//div[@id='footer']/div/div[2]<datalist><option>//div[@id='footer']/div/div[2]</option><option>//div[14]/div/div[2]</option><option>css=div.footer-links</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Acasă<datalist><option>link=Acasă</option><option>//a[contains(text(),'Acasă')]</option><option>//div[@id='footer']/div/div[2]/a</option><option>xpath=(//a[contains(@href, '/')])[30]</option><option>//div[14]/div/div[2]/a</option><option>css=div.footer-links &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Despre Noi<datalist><option>link=Despre Noi</option><option>//a[contains(text(),'Despre Noi')]</option><option>//div[@id='footer']/div/div[2]/a[2]</option><option>xpath=(//a[contains(@href, '/despre-noi/')])[2]</option><option>//div[2]/a[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Concept<datalist><option>link=Concept</option><option>//a[contains(text(),'Concept')]</option><option>//div[@id='footer']/div/div[2]/a[3]</option><option>xpath=(//a[contains(@href, '/concept/')])[2]</option><option>//div[2]/a[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Noutăți<datalist><option>link=Noutăți</option><option>//a[contains(text(),'Noutăți')]</option><option>//div[@id='footer']/div/div[2]/a[4]</option><option>xpath=(//a[contains(@href, '/noutati/')])[2]</option><option>//div[2]/a[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Contribuie<datalist><option>link=Contribuie</option><option>//a[contains(text(),'Contribuie')]</option><option>//div[@id='footer']/div/div[2]/a[5]</option><option>xpath=(//a[contains(@href, '/contribuie/')])[3]</option><option>//div[2]/a[5]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Parteneri<datalist><option>link=Parteneri</option><option>//a[contains(text(),'Parteneri')]</option><option>//div[@id='footer']/div/div[2]/a[6]</option><option>xpath=(//a[contains(@href, '/parteneri/')])[2]</option><option>//a[6]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Termeni și Condiții<datalist><option>link=Termeni și Condiții</option><option>//a[contains(text(),'Termeni și Condiții')]</option><option>//div[@id='footer']/div/div[2]/a[7]</option><option>xpath=(//a[contains(@href, '/termeni-si-conditii/')])[2]</option><option>//a[7]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=ANPC<datalist><option>link=ANPC</option><option>//a[contains(text(),'ANPC')]</option><option>//div[@id='footer']/div/div[2]/a[8]</option><option>//a[@href='http://www.anpc.gov.ro/']</option><option>//a[8]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Traseu<datalist><option>xpath=(//a[contains(text(),'Traseu')])[2]</option><option>//div[@id='footer']/div/div[2]/a[9]</option><option>xpath=(//a[contains(@href, '/traseu/')])[14]</option><option>//a[9]</option><option>link=Traseu</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Cerna<datalist><option>link=Cerna</option><option>//a[contains(text(),'Cerna')]</option><option>//div[@id='footer']/div/div[2]/a[10]</option><option>xpath=(//a[contains(@href, '/traseu/cerna/')])[2]</option><option>//a[10]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Terra Daco Romana<datalist><option>link=Terra Daco Romana</option><option>//a[contains(text(),'Terra Daco Romana')]</option><option>//div[@id='footer']/div/div[2]/a[11]</option><option>xpath=(//a[contains(@href, '/traseu/terra-daco-romana/')])[2]</option><option>//a[11]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Valea Mureșului<datalist><option>link=Valea Mureșului</option><option>//a[contains(text(),'Valea Mureșului')]</option><option>//div[@id='footer']/div/div[2]/a[12]</option><option>xpath=(//a[contains(@href, '/traseu/valea-muresului/')])[2]</option><option>//a[12]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Terra Saxonia<datalist><option>link=Terra Saxonia</option><option>//a[contains(text(),'Terra Saxonia')]</option><option>//div[@id='footer']/div/div[2]/a[13]</option><option>xpath=(//a[contains(@href, '/traseu/terra-saxonia/')])[7]</option><option>//a[13]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Terra Siculorum<datalist><option>link=Terra Siculorum</option><option>//a[contains(text(),'Terra Siculorum')]</option><option>//div[@id='footer']/div/div[2]/a[14]</option><option>xpath=(//a[contains(@href, '/traseu/terra-siculorum/')])[2]</option><option>//a[14]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Ținutul de sus<datalist><option>link=Ținutul de sus</option><option>//a[contains(text(),'Ținutul de sus')]</option><option>//div[@id='footer']/div/div[2]/a[15]</option><option>xpath=(//a[contains(@href, '/traseu/tinutul-de-sus/')])[2]</option><option>//a[15]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Bucovina<datalist><option>link=Bucovina</option><option>//a[contains(text(),'Bucovina')]</option><option>//div[@id='footer']/div/div[2]/a[16]</option><option>xpath=(//a[contains(@href, '/traseu/bucovina/')])[2]</option><option>//a[16]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div/form/p<datalist><option>//div[@id='footer']/div/div[3]/div/div/form/p</option><option>//div[3]/div/div/form/p</option><option>css=p.primary-color</option></datalist></td><td>Buletin informativ</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div/form/span<datalist><option>//div[@id='footer']/div/div[3]/div/div/form/span</option><option>//form/span</option><option>css=form &gt; span</option></datalist></td><td>Primește ultimele vești despre Via Transilvanica direct în căsuța ta de email!</td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=newsletterEmail<datalist><option>id=newsletterEmail</option><option>//input[@id='newsletterEmail']</option><option>//div[@id='footer']/div/div[3]/div/div/form/input</option><option>//div[3]/div/div/form/input</option><option>css=#newsletterEmail</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=submitNewsletter<datalist><option>id=submitNewsletter</option><option>//input[@id='submitNewsletter']</option><option>//div[@id='footer']/div/div[3]/div/div/form/input[2]</option><option>//div[3]/div/div/form/input[2]</option><option>css=#submitNewsletter</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/p<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/p</option><option>//div[2]/p</option><option>css=div.col-lg-3 &gt; p.primary-color</option></datalist></td><td>Detalii asociație</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/ul/li<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/ul/li</option><option>//div[2]/ul/li</option><option>css=div.col-lg-3 &gt; ul &gt; li</option></datalist></td><td>ASOCIAȚIA TĂȘULEASA SOCIAL</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[2]<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[2]</option><option>//div[2]/ul/li[2]</option></datalist></td><td>COD FISCAL: RO13681966</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[3]<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[3]</option><option>//div[2]/ul/li[3]</option></datalist></td><td>BANCA: Transilvania, Sucursala Bistrița</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[4]/span<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[4]/span</option><option>//li[4]/span</option></datalist></td><td>RO56 BTRL RONC RT00 2541 0806</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[3]/p<datalist><option>//div[@id='footer']/div/div[3]/div/div[3]/p</option><option>//div[3]/p</option></datalist></td><td>Adresă</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[4]/p<datalist><option>//div[@id='footer']/div/div[3]/div/div[4]/p</option><option>//div[4]/p</option><option>css=div.col-lg-2 &gt; p.primary-color</option></datalist></td><td>Contact</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[4]/ul/li/strong<datalist><option>//div[@id='footer']/div/div[3]/div/div[4]/ul/li/strong</option><option>//strong</option><option>css=strong</option></datalist></td><td>Alin Uhlmann Ușeriu</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[4]/ul/li/span<datalist><option>//div[@id='footer']/div/div[3]/div/div[4]/ul/li/span</option><option>//div[4]/ul/li/span</option><option>css=div.col-lg-2 &gt; ul &gt; li &gt; span</option></datalist></td><td>– Președinte</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[4]/ul/li[2]/span<datalist><option>//div[@id='footer']/div/div[3]/div/div[4]/ul/li[2]/span</option><option>//li[2]/span</option></datalist></td><td>asociatia@tasuleasasocial.ro</td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Contribuie<datalist><option>link=Contribuie</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>//div[@id='footer']/div/div[4]/div[2]/a<datalist><option>//div[@id='footer']/div/div[4]/div[2]/a/img</option><option>//div[2]/a/img</option><option>css=div.footer-social-media &gt; a &gt; img</option><option>//div[@id='footer']/div/div[4]/div[2]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>//div[@id='footer']/div/div[4]/div[3]/p<datalist><option>//div[@id='footer']/div/div[4]/div[3]/p</option><option>//div[4]/div[3]/p</option><option>css=div.hidden-sm &gt; p</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[4]/div[3]/p<datalist><option>//div[@id='footer']/div/div[4]/div[3]/p</option><option>//div[4]/div[3]/p</option><option>css=div.hidden-sm &gt; p</option></datalist></td><td>© 2020 VIA TRANSILVANICA - TOATE DREPTURILE REZERVATE</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[4]/div[3]/p[2]<datalist><option>//div[@id='footer']/div/div[4]/div[3]/p[2]</option><option>//div[4]/div[3]/p[2]</option></datalist></td><td>POWERED BY ENDAVA</td>
+</tr>
+<tr><td>click</td><td>//a[3]/span[2]<datalist><option>//a[3]/span[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertTitle</td><td>Terra Saxonia<datalist><option>Terra Saxonia</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td>Terra Saxonia</td>
+</tr>
+<tr><td>assertText</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td>De la Copșa Mică traseul merge spre Mediaș, iar apoi prin culoarul Târnavei Mari spre Sighișoara, apoi Cloașterf și satul Criț. Prin Valea Scroafei ne îndreptam spre Saschiz. Din dreptul localității Roadeș intrăm în Subcarpații Homoroadelor cu areale depresionare și culmi domoale.</td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=footer<datalist><option>id=footer</option><option>//div[@id='footer']</option><option>//div[14]</option><option>css=#footer</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>//div[@id='footer']/div/div/img<datalist><option>//div[@id='footer']/div/div/img</option><option>//div[14]/div/div/img</option><option>css=img.footer-app-logo.hidden-sm</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>//div[@id='footer']/div/div[2]<datalist><option>//div[@id='footer']/div/div[2]</option><option>//div[14]/div/div[2]</option><option>css=div.footer-links</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Acasă<datalist><option>link=Acasă</option><option>//a[contains(text(),'Acasă')]</option><option>//div[@id='footer']/div/div[2]/a</option><option>xpath=(//a[contains(@href, '/')])[30]</option><option>//div[14]/div/div[2]/a</option><option>css=div.footer-links &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Despre Noi<datalist><option>link=Despre Noi</option><option>//a[contains(text(),'Despre Noi')]</option><option>//div[@id='footer']/div/div[2]/a[2]</option><option>xpath=(//a[contains(@href, '/despre-noi/')])[2]</option><option>//div[2]/a[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Concept<datalist><option>link=Concept</option><option>//a[contains(text(),'Concept')]</option><option>//div[@id='footer']/div/div[2]/a[3]</option><option>xpath=(//a[contains(@href, '/concept/')])[2]</option><option>//div[2]/a[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Noutăți<datalist><option>link=Noutăți</option><option>//a[contains(text(),'Noutăți')]</option><option>//div[@id='footer']/div/div[2]/a[4]</option><option>xpath=(//a[contains(@href, '/noutati/')])[2]</option><option>//div[2]/a[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Contribuie<datalist><option>link=Contribuie</option><option>//a[contains(text(),'Contribuie')]</option><option>//div[@id='footer']/div/div[2]/a[5]</option><option>xpath=(//a[contains(@href, '/contribuie/')])[3]</option><option>//div[2]/a[5]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Parteneri<datalist><option>link=Parteneri</option><option>//a[contains(text(),'Parteneri')]</option><option>//div[@id='footer']/div/div[2]/a[6]</option><option>xpath=(//a[contains(@href, '/parteneri/')])[2]</option><option>//a[6]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Termeni și Condiții<datalist><option>link=Termeni și Condiții</option><option>//a[contains(text(),'Termeni și Condiții')]</option><option>//div[@id='footer']/div/div[2]/a[7]</option><option>xpath=(//a[contains(@href, '/termeni-si-conditii/')])[2]</option><option>//a[7]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=ANPC<datalist><option>link=ANPC</option><option>//a[contains(text(),'ANPC')]</option><option>//div[@id='footer']/div/div[2]/a[8]</option><option>//a[@href='http://www.anpc.gov.ro/']</option><option>//a[8]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Traseu<datalist><option>link=Traseu</option><option>xpath=(//a[contains(text(),'Traseu')])[2]</option><option>//div[@id='footer']/div/div[2]/a[9]</option><option>xpath=(//a[contains(@href, '/traseu/')])[14]</option><option>//a[9]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Cerna<datalist><option>link=Cerna</option><option>//a[contains(text(),'Cerna')]</option><option>//div[@id='footer']/div/div[2]/a[10]</option><option>xpath=(//a[contains(@href, '/traseu/cerna/')])[2]</option><option>//a[10]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Terra Daco Romana<datalist><option>link=Terra Daco Romana</option><option>//a[contains(text(),'Terra Daco Romana')]</option><option>//div[@id='footer']/div/div[2]/a[11]</option><option>xpath=(//a[contains(@href, '/traseu/terra-daco-romana/')])[2]</option><option>//a[11]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Valea Mureșului<datalist><option>link=Valea Mureșului</option><option>//a[contains(text(),'Valea Mureșului')]</option><option>//div[@id='footer']/div/div[2]/a[12]</option><option>xpath=(//a[contains(@href, '/traseu/valea-muresului/')])[2]</option><option>//a[12]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Terra Saxonia<datalist><option>link=Terra Saxonia</option><option>//a[contains(text(),'Terra Saxonia')]</option><option>//div[@id='footer']/div/div[2]/a[13]</option><option>xpath=(//a[contains(@href, '/traseu/terra-saxonia/')])[7]</option><option>//a[13]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Terra Siculorum<datalist><option>link=Terra Siculorum</option><option>//a[contains(text(),'Terra Siculorum')]</option><option>//div[@id='footer']/div/div[2]/a[14]</option><option>xpath=(//a[contains(@href, '/traseu/terra-siculorum/')])[2]</option><option>//a[14]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Ținutul de sus<datalist><option>link=Ținutul de sus</option><option>//a[contains(text(),'Ținutul de sus')]</option><option>//div[@id='footer']/div/div[2]/a[15]</option><option>xpath=(//a[contains(@href, '/traseu/tinutul-de-sus/')])[2]</option><option>//a[15]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Bucovina<datalist><option>link=Bucovina</option><option>//a[contains(text(),'Bucovina')]</option><option>//div[@id='footer']/div/div[2]/a[16]</option><option>xpath=(//a[contains(@href, '/traseu/bucovina/')])[2]</option><option>//a[16]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div/form/p<datalist><option>//div[@id='footer']/div/div[3]/div/div/form/p</option><option>//div[3]/div/div/form/p</option><option>css=p.primary-color</option></datalist></td><td>Buletin informativ</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div/form/span<datalist><option>//div[@id='footer']/div/div[3]/div/div/form/span</option><option>//form/span</option><option>css=form &gt; span</option></datalist></td><td>Primește ultimele vești despre Via Transilvanica direct în căsuța ta de email!</td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=newsletterEmail<datalist><option>id=newsletterEmail</option><option>//input[@id='newsletterEmail']</option><option>//div[@id='footer']/div/div[3]/div/div/form/input</option><option>//div[3]/div/div/form/input</option><option>css=#newsletterEmail</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>id=submitNewsletter<datalist><option>id=submitNewsletter</option><option>//input[@id='submitNewsletter']</option><option>//div[@id='footer']/div/div[3]/div/div/form/input[2]</option><option>//div[3]/div/div/form/input[2]</option><option>css=#submitNewsletter</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/p<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/p</option><option>//div[2]/p</option><option>css=div.col-lg-3 &gt; p.primary-color</option></datalist></td><td>Detalii asociație</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/ul/li<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/ul/li</option><option>//div[2]/ul/li</option><option>css=div.col-lg-3 &gt; ul &gt; li</option></datalist></td><td>ASOCIAȚIA TĂȘULEASA SOCIAL</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[2]<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[2]</option><option>//div[2]/ul/li[2]</option></datalist></td><td>COD FISCAL: RO13681966</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[3]<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[3]</option><option>//div[2]/ul/li[3]</option></datalist></td><td>BANCA: Transilvania, Sucursala Bistrița</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[4]/span<datalist><option>//div[@id='footer']/div/div[3]/div/div[2]/ul/li[4]/span</option><option>//li[4]/span</option></datalist></td><td>RO56 BTRL RONC RT00 2541 0806</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[3]/p<datalist><option>//div[@id='footer']/div/div[3]/div/div[3]/p</option><option>//div[3]/p</option></datalist></td><td>Adresă</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[4]/p<datalist><option>//div[@id='footer']/div/div[3]/div/div[4]/p</option><option>//div[4]/p</option><option>css=div.col-lg-2 &gt; p.primary-color</option></datalist></td><td>Contact</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[4]/ul/li/strong<datalist><option>//div[@id='footer']/div/div[3]/div/div[4]/ul/li/strong</option><option>//strong</option><option>css=strong</option></datalist></td><td>Alin Uhlmann Ușeriu</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[4]/ul/li/span<datalist><option>//div[@id='footer']/div/div[3]/div/div[4]/ul/li/span</option><option>//div[4]/ul/li/span</option><option>css=div.col-lg-2 &gt; ul &gt; li &gt; span</option></datalist></td><td>– Președinte</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[3]/div/div[4]/ul/li[2]/span<datalist><option>//div[@id='footer']/div/div[3]/div/div[4]/ul/li[2]/span</option><option>//li[2]/span</option></datalist></td><td>asociatia@tasuleasasocial.ro</td>
+</tr>
+<tr><td>assertElementPresent</td><td>link=Contribuie<datalist><option>link=Contribuie</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>//div[@id='footer']/div/div[4]/div[2]/a<datalist><option>//div[@id='footer']/div/div[4]/div[2]/a</option><option>//div[@id='footer']/div/div[4]/div[2]/a/img</option><option>//div[2]/a/img</option><option>css=div.footer-social-media &gt; a &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td>assertElementPresent</td><td>//div[@id='footer']/div/div[4]/div[3]/p<datalist><option>//div[@id='footer']/div/div[4]/div[3]/p</option><option>//div[4]/div[3]/p</option><option>css=div.hidden-sm &gt; p</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[4]/div[3]/p<datalist><option>//div[@id='footer']/div/div[4]/div[3]/p</option><option>//div[4]/div[3]/p</option><option>css=div.hidden-sm &gt; p</option></datalist></td><td>© 2020 VIA TRANSILVANICA - TOATE DREPTURILE REZERVATE</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='footer']/div/div[4]/div[3]/p[2]<datalist><option>//div[@id='footer']/div/div[4]/div[3]/p[2]</option><option>//div[4]/div[3]/p[2]</option></datalist></td><td>POWERED BY ENDAVA</td>
+</tr>
+<tr><td>click</td><td>link=Obiective<datalist><option>link=Obiective</option><option>//a[contains(@href, '/traseu/terra-saxonia/informații/')]</option><option>//div[10]/a[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertTitle</td><td>Obiective<datalist><option>Obiective</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td>Obiective</td>
+</tr>
+<tr><td>assertText</td><td>//div[2]/div/div/p<datalist><option>//div[2]/div/div/p</option><option>css=div.short-description &gt; p</option></datalist></td><td>Cu o lungime de 125 km, Terra Saxonia este porțiunea de traseu ce parcurge zona locuită odinioară de sași. Tradițiile și obiceiurile sașilor trebuie cunoscute pentru a înțelege mai bine influența pe care au avut-o asupra întregii Transilvanii.</td>
+</tr>
+<tr><td>assertText</td><td>//b<datalist><option>//b</option><option>css=b</option></datalist></td><td>Piatra rușinii din satul fără divorțuri</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='short0']/p<datalist><option>//div[@id='short0']/p</option><option>//div[2]/div/p</option><option>css=#short0 &gt; p</option></datalist></td><td>Biertan este una dintre cele şapte aşezări de saşi incluse în patrimoniul mondial UNESCO. În secolul al XII-lea, coloniştii saşi - originari din zone care astăzi sunt Franţa, Belgia, Luxemburg şi Germania au fost invitaţi de regele Geza al II-lea al Ungariei să se stabilească în Transilvania. Meșteșugarii sași au...</td>
+</tr>
+<tr><td>assertText</td><td>//div[3]/div/div[2]/b<datalist><option>//div[3]/div/div[2]/b</option></datalist></td><td>Cetatea și dulceața de rubarbă</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='short1']/p<datalist><option>//div[@id='short1']/p</option><option>//div[3]/div/div[2]/div/p</option><option>css=#short1 &gt; p</option></datalist></td><td>Numele în limba maghiară al comunei este Szasz Kezd, adică mâna sasului. A fost populată de secui până la sfârșitul sec.XIII, când locul a fost revendicat de către sași. Azi, în Saschiz se pot vizita cetatea țărănească și biserica fortificată și se pot încerca dulcețurile de rubarbă sau soc pregătite...</td>
+</tr>
+<tr><td>assertText</td><td>//div[4]/div/div[2]/b<datalist><option>//div[4]/div/div[2]/b</option></datalist></td><td>Legenda strugurilor de aur</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='short2']/p<datalist><option>//div[@id='short2']/p</option><option>//div[4]/div/div[2]/div/p</option><option>css=#short2 &gt; p</option></datalist></td><td>Așezat într-o zonă dedicată odinioară viticulturii, Mediașul este emblematic pentru cultura și istoria sașilor din Transilvania. În epoca romană, aici a existat un castru, dar prima atestare documentară apare în 1267 când e menționat ca Mediessy, nume ce poate fi legat de denumirea unui trib secuiesc din secolul al...</td>
+</tr>
+<tr><td>assertText</td><td>//div[5]/div/div[2]/b<datalist><option>//div[5]/div/div[2]/b</option></datalist></td><td>Biserica fortificată</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='short3']/p<datalist><option>//div[@id='short3']/p</option><option>//div[5]/div/div[2]/div/p</option><option>css=#short3 &gt; p</option></datalist></td><td>Una dintre cele mai bine păstrate biserici fortificate din Transilvania se află în satul Cloașterf din județul Mureș. Considerată una din cele mai omogene din punct de vedere al construcției, Biserica Evanghelică Luterană a fost construită într-o singură etapă, între anii 1521- 1524. Arhitect a fost Ștefan Ungar din...</td>
+</tr>
+<tr><td>assertText</td><td>//div[6]/div/div[2]/b<datalist><option>//div[6]/div/div[2]/b</option></datalist></td><td>Vecinătățile din țăra ovăzului</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='short4']/p<datalist><option>//div[@id='short4']/p</option><option>//div[6]/div/div[2]/div/p</option><option>css=#short4 &gt; p</option></datalist></td><td>În limba germană, Crit-Deutschkreutz înseamnă "Crucea germană". Aici este un loc unde, în afara frumoasei biserici fortificate, avem ocazia să aflăm multe despre tradițiile și obiceiurile sașilor. Comunitatea săsească era renumită pentru unitatea în care conviețuia. Turnul slăninii, care apare în aproape fiecare sat cu biserică fortificată e un exemplu...</td>
+</tr>
+<tr><td></td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+<tr><td></td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+<tr><td></td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse0<datalist><option>id=buttonSectionCollapse0</option><option>link=CITEȘTE MAI MULT</option><option>//a[contains(text(),'CITEȘTE MAI MULT')]</option><option>//a[@id='buttonSectionCollapse0']</option><option>xpath=(//a[contains(@href, '')])[34]</option><option>//div[2]/div/div[2]/a</option><option>css=#buttonSectionCollapse0</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse0<datalist><option>id=buttonSectionCollapse0</option><option>link=CITEȘTE MAI PUȚIN</option><option>//a[contains(text(),'CITEȘTE MAI PUȚIN')]</option><option>//a[@id='buttonSectionCollapse0']</option><option>xpath=(//a[contains(@href, '')])[34]</option><option>//div[2]/div/div[2]/a</option><option>css=#buttonSectionCollapse0</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse1<datalist><option>id=buttonSectionCollapse1</option><option>xpath=(//a[contains(text(),'CITEȘTE MAI MULT')])[2]</option><option>//a[@id='buttonSectionCollapse1']</option><option>xpath=(//a[contains(@href, '')])[35]</option><option>//div[3]/div/div[2]/a</option><option>css=#buttonSectionCollapse1</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse1<datalist><option>id=buttonSectionCollapse1</option><option>link=CITEȘTE MAI PUȚIN</option><option>//a[contains(text(),'CITEȘTE MAI PUȚIN')]</option><option>//a[@id='buttonSectionCollapse1']</option><option>xpath=(//a[contains(@href, '')])[35]</option><option>//div[3]/div/div[2]/a</option><option>css=#buttonSectionCollapse1</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse2<datalist><option>id=buttonSectionCollapse2</option><option>xpath=(//a[contains(text(),'CITEȘTE MAI MULT')])[3]</option><option>//a[@id='buttonSectionCollapse2']</option><option>xpath=(//a[contains(@href, '')])[36]</option><option>//div[4]/div/div[2]/a</option><option>css=#buttonSectionCollapse2</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse2<datalist><option>id=buttonSectionCollapse2</option><option>link=CITEȘTE MAI PUȚIN</option><option>//a[contains(text(),'CITEȘTE MAI PUȚIN')]</option><option>//a[@id='buttonSectionCollapse2']</option><option>xpath=(//a[contains(@href, '')])[36]</option><option>//div[4]/div/div[2]/a</option><option>css=#buttonSectionCollapse2</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse3<datalist><option>id=buttonSectionCollapse3</option><option>xpath=(//a[contains(text(),'CITEȘTE MAI MULT')])[4]</option><option>//a[@id='buttonSectionCollapse3']</option><option>xpath=(//a[contains(@href, '')])[37]</option><option>//div[5]/div/div[2]/a</option><option>css=#buttonSectionCollapse3</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse3<datalist><option>id=buttonSectionCollapse3</option><option>link=CITEȘTE MAI PUȚIN</option><option>//a[contains(text(),'CITEȘTE MAI PUȚIN')]</option><option>//a[@id='buttonSectionCollapse3']</option><option>xpath=(//a[contains(@href, '')])[37]</option><option>//div[5]/div/div[2]/a</option><option>css=#buttonSectionCollapse3</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse4<datalist><option>id=buttonSectionCollapse4</option><option>xpath=(//a[contains(text(),'CITEȘTE MAI MULT')])[5]</option><option>//a[@id='buttonSectionCollapse4']</option><option>xpath=(//a[contains(@href, '')])[38]</option><option>//div[6]/div/div[2]/a</option><option>css=#buttonSectionCollapse4</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse4<datalist><option>id=buttonSectionCollapse4</option><option>link=CITEȘTE MAI PUȚIN</option><option>//a[contains(text(),'CITEȘTE MAI PUȚIN')]</option><option>//a[@id='buttonSectionCollapse4']</option><option>xpath=(//a[contains(@href, '')])[38]</option><option>//div[6]/div/div[2]/a</option><option>css=#buttonSectionCollapse4</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse5<datalist><option>id=buttonSectionCollapse5</option><option>xpath=(//a[contains(text(),'CITEȘTE MAI MULT')])[6]</option><option>//a[@id='buttonSectionCollapse5']</option><option>xpath=(//a[contains(@href, '')])[39]</option><option>//div[7]/div/div[2]/a</option><option>css=#buttonSectionCollapse5</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse5<datalist><option>id=buttonSectionCollapse5</option><option>link=CITEȘTE MAI PUȚIN</option><option>//a[contains(text(),'CITEȘTE MAI PUȚIN')]</option><option>//a[@id='buttonSectionCollapse5']</option><option>xpath=(//a[contains(@href, '')])[39]</option><option>//div[7]/div/div[2]/a</option><option>css=#buttonSectionCollapse5</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//a[5]/span[2]<datalist><option>//a[5]/span[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//main/div/div/div/div<datalist><option>//main/div/div/div/div</option><option>css=div.image-background</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//button[2]/span<datalist><option>//button[2]/span</option><option>css=button.owl-next &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='closeButtonCarouselPopup']/img<datalist><option>//div[@id='closeButtonCarouselPopup']/img</option><option>//div[4]/div/img</option><option>css=#closeButtonCarouselPopup &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td></td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
