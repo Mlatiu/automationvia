@@ -3,12 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-	<title>TraseuBucovina</title>
+	<title>HartaTraseuBucovina</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">HartaTraseu</td></tr>
+<tr><td rowspan="1" colspan="3">HartaTraseuRO</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://www.viatransilvanica.com/traseu/bucovina/harta/<datalist><option>https://www.viatransilvanica.com/traseu/bucovina/harta/</option></datalist></td><td></td>
@@ -59,7 +59,7 @@
 </tr>
 <tr><td>assertText</td><td>//div[3]/div/div/p<datalist><option>//div[3]/div/div/p</option></datalist></td><td>Mănăstirea Moldovița</td>
 </tr>
-<tr><td>click</td><td>//div[3]/div/div/img<datalist><option>//div[3]/div/div/img</option></datalist></td><td></td>
+<tr><td>showElement</td><td>//div[3]/div/div/img<datalist><option>//div[3]/div/div/img</option></datalist></td><td></td>
 </tr>
 <tr><td>assertText</td><td>//div[@id='short1']/p<datalist><option>//div[@id='short1']/p</option><option>//div[3]/div/div[2]/div/p</option><option>css=#short1 &gt; p</option></datalist></td><td>Aproape de granița cu Ucraina, în comuna Vatra Moldoviței din județul Suceava, se află una din cele mai frumoase mănăstiri din nordul Moldovei – Moldovița. Aceasta face parte începând din 1993 din patrimoniul Unesco, alături de alte șapte biserici din nordul Moldovei - Arbore, Pătrăuți, Humor, Probota, Sucevița și Voroneț....</td>
 </tr>
@@ -73,27 +73,115 @@
 </tr>
 <tr><td>click</td><td>//div/div/div/div/div/p<datalist><option>//div/div/div/div/div/p</option><option>css=p.text-bold</option></datalist></td><td></td>
 </tr>
+<tr><td>showElement</td><td>//div[@id='closeButtonCarouselPopup']/img<datalist><option>//div[@id='closeButtonCarouselPopup']/img</option><option>//div[4]/div/img</option><option>css=#closeButtonCarouselPopup &gt; img</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">HartaTraseuEN</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.viatransilvanica.com/<datalist><option>https://www.viatransilvanica.com/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=EN<datalist><option>link=EN</option><option>//a[contains(text(),'EN')]</option><option>//a[contains(@href, '/en')]</option><option>//span[2]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=BUCOVINA<datalist><option>link=BUCOVINA</option><option>//a[contains(text(),'BUCOVINA')]</option><option>//div[@id='mCSB_1_container']/ul/ul/li/a</option><option>//a[contains(@href, '/en/trail/bucovina/map/')]</option><option>//ul/ul/li/a</option><option>css=ul.navList &gt; ul &gt; li &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[8]/a/span<datalist><option>//div[8]/a/span</option><option>css=span.icon.icon-map</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='map']/div/div/div/div[3]/div/div[3]/div[3]/span<datalist><option>//div[@id='map']/div/div/div/div[3]/div/div[3]/div[3]/span</option><option>//div[3]/span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//img[contains(@src,'https://viatransilvanica.com/media/1941/iconpensiune-3x.png')])[16]<datalist><option>xpath=(//img[contains(@src,'https://viatransilvanica.com/media/1941/iconpensiune-3x.png')])[16]</option><option>//div[@id='map']/div/div/div/div[3]/div/div[3]/div[16]/img</option><option>//div[3]/div[16]/img</option><option>css=div[title="Pensiunea Casa Florin"] &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/h3<datalist><option>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/h3</option><option>//h3</option><option>css=h3.iw-titlu</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/h3<datalist><option>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/h3</option><option>//h3</option><option>css=h3.iw-titlu</option></datalist></td><td>Pensiunea Casa Florin</td>
+</tr>
+<tr><td>click</td><td>link=People<datalist><option>link=People</option><option>//a[contains(@href, '/en/trail/bucovina/people/')]</option><option>//div[10]/a[2]</option><option>css=a.menu-item.region-menu-active</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td>People</td>
+</tr>
+<tr><td>assertText</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td>The people of Bucovina are determined Moldavians who have faced the challenges of history. Their traditions have been well-preserved through centuries.</td>
+</tr>
+<tr><td>click</td><td>//a[3]/span<datalist><option>//a[3]/span</option><option>css=span.icon.icon-nature</option></datalist></td><td></td>
+</tr>
+<tr><td>assertTitle</td><td>Bucovina<datalist><option>//h1</option><option>css=h1</option><option>Bucovina</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td>From Piatra Fantanele village, in Tihuta Pass, we go through Poiana Stampei to the Dorna Candrenilor Depression. We cross the Suhard Mountains to Fundu Moldovei. The route then goes through Campulung-Moldovenesc and Moldovita Depression to Obcinele Bucovinei, reaching Putna.</td>
+</tr>
+<tr><td>click</td><td>//a[4]/span<datalist><option>//a[4]/span</option><option>css=span.icon.icon-info</option></datalist></td><td></td>
+</tr>
+<tr><td>assertTitle</td><td>Information<datalist><option>//h1</option><option>css=h1</option><option>Information</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[2]/div/div/p<datalist><option>//div[2]/div/div/p</option><option>css=div.short-description &gt; p</option></datalist></td><td>In the north of the country, Bucovina is a bridge between Transylvania and Moldova. We will discover along the 133 km route, picturesque areas and monuments of unique history in the world.</td>
+</tr>
+<tr><td>assertText</td><td>//div[2]/div[2]/div/div/p<datalist><option>//div[2]/div[2]/div/div/p</option><option>css=p.text-bold</option></datalist></td><td>Putna</td>
+</tr>
+<tr><td>assertText</td><td>//b<datalist><option>//b</option><option>css=b</option></datalist></td><td>By bow and arrow</td>
+</tr>
+<tr><td>click</td><td>//div[@id='short0']/p<datalist><option>//div[@id='short0']/p</option><option>//div[2]/div/p</option><option>css=#short0 &gt; p</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Photos<datalist><option>link=Photos</option><option>//a[contains(@href, '/en/trail/bucovina/photos/')]</option><option>//a[5]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//main/div/div/div/div<datalist><option>//main/div/div/div/div</option><option>css=div.image-background</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='closeButtonCarouselPopup']/img<datalist><option>//div[@id='closeButtonCarouselPopup']/img</option><option>//div[4]/div/img</option><option>css=#closeButtonCarouselPopup &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[2]/div/div/p<datalist><option>//div[2]/div/div/p</option></datalist></td><td></td>
+</tr>
 <tr><td>click</td><td>//div[@id='closeButtonCarouselPopup']/img<datalist><option>//div[@id='closeButtonCarouselPopup']/img</option><option>//div[4]/div/img</option><option>css=#closeButtonCarouselPopup &gt; img</option></datalist></td><td></td>
 </tr>
 </tbody></table>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Oameni</td></tr>
+<tr><td rowspan="1" colspan="3">BucovinaOameniEN</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.viatransilvanica.com/traseu/bucovina/harta/<datalist><option>https://www.viatransilvanica.com/traseu/bucovina/harta/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=EN<datalist><option>link=EN</option><option>//a[contains(text(),'EN')]</option><option>//a[contains(@href, '/en/trail/bucovina/map/')]</option><option>//span[2]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//a[@id='menu-toggle']/span/span[2]<datalist><option>//a[@id='menu-toggle']/span/span[2]</option><option>//span/span[2]</option><option>css=span.bar2.bar.menu-bar-trans-all</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=BUCOVINA<datalist><option>link=BUCOVINA</option><option>//a[contains(text(),'BUCOVINA')]</option><option>//div[@id='mCSB_1_container']/ul/ul/li/a</option><option>//a[contains(@href, '/en/trail/bucovina/map/')]</option><option>//ul/ul/li/a</option><option>css=ul.navList &gt; ul &gt; li &gt; a</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//a[2]/span<datalist><option>//a[2]/span</option><option>css=span.icon.icon-people</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Map<datalist><option>link=Map</option><option>xpath=(//a[contains(@href, '/en/trail/bucovina/map/')])[2]</option><option>//div[10]/a</option><option>css=a.menu-item</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//img[contains(@src,'https://viatransilvanica.com/media/1908/iconcazaregospodarie-3x.png')])[2]<datalist><option>xpath=(//img[contains(@src,'https://viatransilvanica.com/media/1908/iconcazaregospodarie-3x.png')])[2]</option><option>//div[@id='map']/div/div/div/div[3]/div/div[3]/div[15]/img</option><option>//div[3]/div[15]/img</option><option>css=div[title="Cabana David"] &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/h3<datalist><option>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/h3</option><option>//h3</option><option>css=h3.iw-titlu</option></datalist></td><td>Cabana David</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/div[2]/div/span<datalist><option>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/div[2]/div/span</option><option>//div/div/div/div/div/div[2]/div/span</option><option>css=div.iw-address.icon-wrapper &gt; span</option></datalist></td><td>Comuna Sadova nr. 333A, Județul Suceava, România</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/div[2]/div[3]<datalist><option>//div[@id='map']/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/div/div/div[2]/div[3]</option><option>//div[2]/div[3]</option><option>css=div.iw-tel.icon-wrapper</option></datalist></td><td>0745 174 180</td>
+</tr>
+<tr><td>click</td><td>link=Nature<datalist><option>link=Nature</option><option>//a[contains(@href, '/en/trail/bucovina/nature/')]</option><option>//div[8]/a[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertTitle</td><td>Bucovina<datalist><option>//h1</option><option>css=h1</option><option>Nature</option><option>Bucovina</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td>From Piatra Fantanele village, in Tihuta Pass, we go through Poiana Stampei to the Dorna Candrenilor Depression. We cross the Suhard Mountains to Fundu Moldovei. The route then goes through Campulung-Moldovenesc and Moldovita Depression to Obcinele Bucovinei, reaching Putna.</td>
+</tr>
+<tr><td>assertTitle</td><td>Bucovina<datalist><option>//h1</option><option>css=h1</option><option>INFORMATION</option><option>Information</option><option>Bucovina</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">BucovinaOameniRO</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://www.viatransilvanica.com/traseu/bucovina/oameni/<datalist><option>https://www.viatransilvanica.com/traseu/bucovina/oameni/</option></datalist></td><td></td>
 </tr>
 <tr><td>assertTitle</td><td>Oameni<datalist><option>//h1</option><option>css=h1</option><option>OAMENI</option><option>Oameni</option></datalist></td><td></td>
 </tr>
-<tr><td>click</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td></td>
+<tr><td>assertElementPresent</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td></td>
 </tr>
 <tr><td>assertText</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td>Oamenii din Bucovina sunt moldoveni statornici ce au rezistat încercărilor istoriei. Tradițiile lor sunt duse mai departe peste veacuri.</td>
-</tr>
-<tr><td>click</td><td>link=EN<datalist><option>link=EN</option><option>//a[contains(text(),'EN')]</option><option>//a[contains(@href, '/en/trail/bucovina/people/')]</option><option>//span[2]/a</option></datalist></td><td></td>
-</tr>
-<tr><td>assertTitle</td><td>People<datalist><option>//h1</option><option>css=h1</option><option>People</option></datalist></td><td></td>
-</tr>
-<tr><td>assertText</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td>The people of Bucovina are determined Moldavians who have faced the challenges of history. Their traditions have been well-preserved through centuries.</td>
 </tr>
 </tbody></table>
 </body>
