@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>ValeaMuresuluiEN</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ValeaMuresuluiEN</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.viatransilvanica.com/en/trail/mures-valley/map/<datalist><option>https://www.viatransilvanica.com/en/trail/mures-valley/map/</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[3]/div/p<datalist><option>//div[3]/div/p</option><option>css=p.description</option></datalist></td><td>The distance between two milestones, on the map and in the field, is equal to 1 kilometer, or 0,62 miles</td>
+</tr>
+<tr><td>click</td><td>//div[3]/div/button<datalist><option>//div[3]/div/button</option><option>css=button.hide-modal</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='map']/div/div/div/div[3]<datalist><option>//div[@id='map']/div/div/div/div[3]</option><option>//div[2]/div/div/div/div[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//a/span[2]<datalist><option>//a/span[2]</option><option>css=a.menu-item.region-menu-active &gt; span.title</option></datalist></td><td>Map</td>
+</tr>
+<tr><td>click</td><td>//a/span[2]<datalist><option>//a/span[2]</option><option>css=a.menu-item.region-menu-active &gt; span.title</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//a[2]/span[2]<datalist><option>//a[2]/span[2]</option></datalist></td><td>People</td>
+</tr>
+<tr><td>click</td><td>//a[2]/span[2]<datalist><option>//a[2]/span[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td>People</td>
+</tr>
+<tr><td>assertText</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td>Mures Valley has witnessed our history. Its peaceful hills are hosting traditions and customs that have been preserved for centuries by locals. On Christmas, people are still going caroling, and on Easter, in some villages, elders are wearing traditional clothes when going to church.</td>
+</tr>
+<tr><td>assertText</td><td>link=Nature<datalist><option>link=Nature</option><option>//a[contains(@href, '/en/trail/mures-valley/nature/')]</option><option>//div[10]/a[3]</option></datalist></td><td>Nature</td>
+</tr>
+<tr><td>click</td><td>link=Nature<datalist><option>link=Nature</option><option>//a[contains(@href, '/en/trail/mures-valley/nature/')]</option><option>//div[10]/a[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td>Mures Valley</td>
+</tr>
+<tr><td>assertText</td><td>//p[2]<datalist><option>//p[2]</option></datalist></td><td>From Orastie, the route goes to Geoagiu, then through the Vintu Corridor, following the Mures Valley to the Aiud Corridor. We then move to a hilly area to the confluence of the two Tirnave rivers - in the village of Izvoarele from where we follow the course of Tirnava Mare to Copsa Mica.</td>
+</tr>
+<tr><td>assertText</td><td>link=Objectives<datalist><option>link=Objectives</option><option>//a[contains(@href, '/en/trail/mures-valley/information/')]</option><option>//div[10]/a[4]</option></datalist></td><td>Objectives</td>
+</tr>
+<tr><td>click</td><td>link=Objectives<datalist><option>link=Objectives</option><option>//a[contains(@href, '/en/trail/mures-valley/information/')]</option><option>//div[10]/a[4]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//h1<datalist><option>//h1</option><option>css=h1</option></datalist></td><td>Information</td>
+</tr>
+<tr><td>assertText</td><td>//div[2]/div/div/p<datalist><option>//div[2]/div/div/p</option><option>css=div.short-description &gt; p</option></datalist></td><td>Mures Valley is a place full of history and deeds of bravery. The proposed route covers the Blaj - Orastie area, passing through Alba Iulia, the place of the Great Romanian Union. It's a route about 122 kilometers.</td>
+</tr>
+<tr><td>assertText</td><td>//div[2]/div[2]/div/div/p<datalist><option>//div[2]/div[2]/div/div/p</option><option>css=p.text-bold</option></datalist></td><td>Alba Carolina</td>
+</tr>
+<tr><td>assertText</td><td>id=buttonSectionCollapse0<datalist><option>id=buttonSectionCollapse0</option><option>link=READ MORE</option><option>//a[contains(text(),'READ MORE')]</option><option>//a[@id='buttonSectionCollapse0']</option><option>xpath=(//a[contains(@href, '')])[34]</option><option>//div[2]/div/div[2]/a</option><option>css=#buttonSectionCollapse0</option></datalist></td><td>READ MORE</td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse0<datalist><option>id=buttonSectionCollapse0</option><option>link=READ MORE</option><option>//a[contains(text(),'READ MORE')]</option><option>//a[@id='buttonSectionCollapse0']</option><option>xpath=(//a[contains(@href, '')])[34]</option><option>//div[2]/div/div[2]/a</option><option>css=#buttonSectionCollapse0</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//b<datalist><option>//b</option><option>css=b</option></datalist></td><td>Fortress of our Romanian Union</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='sectionCollapse0']/p<datalist><option>//div[@id='sectionCollapse0']/p</option><option>//div[2]/p</option><option>css=#sectionCollapse0 &gt; p</option></datalist></td><td>It's hard to pick out the most important information about a place so full of meaning as the Alba Carolina Fortress. It's a journey into the past, with evidence of the last 2,000 years of our existence. It should be remembered that the ruins of the Roman castra Apullum lie here, it is also where crucial moments of Romanian history were written in 1599 and 1918 and also, from an architectural point of view, the Alba Iulia Fortress is the largest Vauban type fortress (star-shaped construction with 7 corners) in Europe.   It is not necessarily to mention here the historical significance of each tourist destination in Alba Carolina, as there are other well-documented references where this information is found.If you visit the city, take the time to look at it not only with your eyes but also with your soul and mind. Take the time to cross the Three Fortifications route, where you will see the Gate of the Transylvanian Principality's Mint, the South Gate of the Roman Castra and the Military Camp. Enter the Union Hall - the place where the Union of Transylvania with Romania was signed in 1918, and then visit the Museum of the Union or the cell where Horea spent the last days before his execution. In 1922, Maria and Ferdinand were crowned King and Queen of the Great Romania inside the Orthodox Cathedral of the city. In the Roman Catholic Cathedral, one can climb the cathedral tower; this cathedral was built at the same time as Notre Dame in Paris and it shelters the tombs of the Hunyads and of the first prince of Transylvania, John Sigismund. You can follow a route to cross the six gates of the city, of which the most spectacular is the Third Gate. Not to be missed is a trip to the ditches of the Citadel, where a distance of approximately 3.5 km which can be enjoyed by foot.In the Royal Palace in Alba, once lived Mihai Viteazul, with Madam Stanca by his side; the astronomical observatory built in 1794 was the first of its kind in Transylvania. The fortress is very lively: every day at 12 o'clock the changing of the Austrian guard takes place, and on Fridays, people who are passionate about history put on their costumes as Roman soldiers and improvise military demonstrations from the times of the Legion XIII Gemina - the longest-lasting legion in history, established by Julius Caesar himself.</td>
+</tr>
+<tr><td>assertText</td><td>id=buttonSectionCollapse0<datalist><option>id=buttonSectionCollapse0</option><option>link=READ LESS</option><option>//a[contains(text(),'READ LESS')]</option><option>//a[@id='buttonSectionCollapse0']</option><option>xpath=(//a[contains(@href, '')])[34]</option><option>//div[2]/div/div[2]/a</option><option>css=#buttonSectionCollapse0</option></datalist></td><td>READ LESS</td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse0<datalist><option>id=buttonSectionCollapse0</option><option>link=READ LESS</option><option>//a[contains(text(),'READ LESS')]</option><option>//a[@id='buttonSectionCollapse0']</option><option>xpath=(//a[contains(@href, '')])[34]</option><option>//div[2]/div/div[2]/a</option><option>css=#buttonSectionCollapse0</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[3]/div/div/p<datalist><option>//div[3]/div/div/p</option></datalist></td><td>Blaj</td>
+</tr>
+<tr><td>assertText</td><td>id=buttonSectionCollapse1<datalist><option>id=buttonSectionCollapse1</option><option>xpath=(//a[contains(text(),'READ MORE')])[2]</option><option>//a[@id='buttonSectionCollapse1']</option><option>xpath=(//a[contains(@href, '')])[35]</option><option>//div[3]/div/div[2]/a</option><option>css=#buttonSectionCollapse1</option></datalist></td><td>READ MORE</td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse1<datalist><option>id=buttonSectionCollapse1</option><option>xpath=(//a[contains(text(),'READ MORE')])[2]</option><option>//a[@id='buttonSectionCollapse1']</option><option>xpath=(//a[contains(@href, '')])[35]</option><option>//div[3]/div/div[2]/a</option><option>css=#buttonSectionCollapse1</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//div[3]/div/div[2]/b<datalist><option>//div[3]/div/div[2]/b</option></datalist></td><td>The Liberty plain</td>
+</tr>
+<tr><td>assertText</td><td>//div[@id='sectionCollapse1']/p<datalist><option>//div[@id='sectionCollapse1']/p</option><option>//div[3]/div/div[2]/div[2]/p</option><option>css=#sectionCollapse1 &gt; p</option></datalist></td><td>The town of Blaj, ancient cultural and historical center of the country, is located at the confluence of the two Tirnave, near the Mures Valley and the Apuseni Mountains. Eminescu called it "The Little Rome", referring to the city’s history. The first Romanian textbooks were printed here, the Romanian language was taught here for the first time, and also the first theater performances in the country in 1761 took place here. The "Holy Trinity" Metropolitan Cathedral, built in 1738 by Bishop Inocentiu Micu Klein by following the sketches of the Viennese architect, Anton Eckhard Martinelli, was the first Baroque building in the country. Historical and architectural monument, the Archdiocesan Castle is the oldest building in Blaj and was the home of many feudal lords for two centuries, until 1737, when it was transformed into the seat of the Greek Catholic Episcopate. The Augustin Bunea History Museum shelters over 1,500 old exhibits, many of them from the Neolithic and Dacian period. On the Freedom Field, in 1848, over 40,000 Romanians from across the Transylvanian region shouted, "We want to unite with the Land." Well-known political and spiritual public figures, personalities from the Romanian cultural life came together in Blaj - Orthodox Bishop Saguna, Simion Barnutiu, Avram Iancu, Ioan Buteanu or Vasile Macariu Moldovan, accompanied by thousands of Romanians from Bihor, Banat and the Romanian Provinces from across the Carpathian Mountains. Gathered together on a field near the Cathedral, the 40,000 attendees aligned and Simion Barnutiu submitted to the vote of the crowd the following points, which were unanimously approved: “This assembly is proclaimed a national general assembly of the Romanian nation in Transylvania.This field, which holds the first Romanian national assembly in Transylvania, for the eternal remembrance of this glorious work will be called the Field of Freedom forever.The Romanian nation declares that it wants to remain the ever-faithful to the Emperor of Austria and a great prince of Transylvania, as well as to the great Austrian house. The Romanian nation declares itself and proclaims itself a self-standing nation and an integral part of Transylvania, on the basis of equal freedom. "On the same Liberty Plain, in 1911, over 30,000 Romanians came together again to celebrate the Astra Semicentenary, the day when Aurel Vlaicu flew the plane that he himself designed, above the heads of the crowd in awe. And again here, on the Liberty Plain, landed the plane that would bring the news of Romania's re-entry into the war for the liberation of Transylvania (November 23, 1918). The Great General Headquarters was announcing then that the Romanian army would cross the Carpathians.The monumental ensemble "Gloria" from the Liberty Plain was inaugurated in 1977. At the base of the monument, immortal words are engraved: "We want to unite with the country!". The second element of the ensemble consists of three bronze statues which symbolize the three Romanian lands: Wallachia, Moldavia, and Transylvania. To the right and to the left of the monument lies Revolution lane "Aleea Revolutiei", 26 bronze burdocks, representing the most important scholars and revolutionaries in the Romanian lands.</td>
+</tr>
+<tr><td>assertText</td><td>id=buttonSectionCollapse1<datalist><option>id=buttonSectionCollapse1</option><option>link=READ LESS</option><option>//a[contains(text(),'READ LESS')]</option><option>//a[@id='buttonSectionCollapse1']</option><option>xpath=(//a[contains(@href, '')])[35]</option><option>//div[3]/div/div[2]/a</option><option>css=#buttonSectionCollapse1</option></datalist></td><td>READ LESS</td>
+</tr>
+<tr><td>click</td><td>id=buttonSectionCollapse1<datalist><option>id=buttonSectionCollapse1</option><option>link=READ LESS</option><option>//a[contains(text(),'READ LESS')]</option><option>//a[@id='buttonSectionCollapse1']</option><option>xpath=(//a[contains(@href, '')])[35]</option><option>//div[3]/div/div[2]/a</option><option>css=#buttonSectionCollapse1</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>//a[5]/span[2]<datalist><option>//a[5]/span[2]</option></datalist></td><td>Photos</td>
+</tr>
+<tr><td>click</td><td>//a[5]/span[2]<datalist><option>//a[5]/span[2]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//main/div/div/div/div<datalist><option>//main/div/div/div/div</option><option>css=div.image-background</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='closeButtonCarouselPopup']/img<datalist><option>//div[@id='closeButtonCarouselPopup']/img</option><option>//div[4]/div/img</option><option>css=#closeButtonCarouselPopup &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//main/div/div/div[2]/div<datalist><option>//main/div/div/div[2]/div</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='closeButtonCarouselPopup']/img<datalist><option>//div[@id='closeButtonCarouselPopup']/img</option><option>//div[4]/div/img</option><option>css=#closeButtonCarouselPopup &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div/div[3]/div<datalist><option>//div/div[3]/div</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='closeButtonCarouselPopup']/img<datalist><option>//div[@id='closeButtonCarouselPopup']/img</option><option>//div[4]/div/img</option><option>css=#closeButtonCarouselPopup &gt; img</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div/div[4]/div<datalist><option>//div/div[4]/div</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='closeButtonCarouselPopup']/img<datalist><option>//div[@id='closeButtonCarouselPopup']/img</option><option>//div[4]/div/img</option><option>css=#closeButtonCarouselPopup &gt; img</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
